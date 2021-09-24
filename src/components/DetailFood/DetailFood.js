@@ -15,7 +15,7 @@ const DetailFood = (props) => {
   return (
     <div>
       <h4 className="text-center mb-4 text-secondary">Your Food</h4>
-      <img src={strMealThumb} className="img-fluid" alt="single meal"/>
+      <img src={strMealThumb} className="img-fluid" alt="" />
       <h5 className="text-center my-3"> {strMeal} </h5>
       <p className="mb-3 text-secondary"> {category} </p>
       <p className="mb-3 text-secondary">{area}</p>
